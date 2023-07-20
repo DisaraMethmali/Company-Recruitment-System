@@ -4,7 +4,9 @@ This website created on html,css,javascript & php only.This website about compan
 
 
 Home page
-![image](https://github.com/DisaraMethmali/1st-Year-2nd-sem-group-project/assets/128726645/2278f780-255c-4a71-9549-a7a0d8083d22)
-![image](https://github.com/DisaraMethmali/1st-Year-2nd-sem-group-project/assets/128726645/03ddfe3d-981b-4694-990f-1b44bf3b72b6)
-![image](https://github.com/DisaraMethmali/1st-Year-2nd-sem-group-project/assets/128726645/f28f35ab-9c76-42f0-8bd0-fe04591ff098)
+![image](https://github.com/DisaraMethmali/Company-Recruitment-System/assets/128726645/7bb18a29-fb5b-4057-af29-5bc373272fc2)
+![image](https://github.com/DisaraMethmali/Company-Recruitment-System/assets/128726645/959c1d9b-f1f3-4e51-9662-18da58b0a0b5)
+![image](https://github.com/DisaraMethmali/Company-Recruitment-System/assets/128726645/6d613ee0-4107-4289-a5aa-27269d69b7e0)
+
+
 
