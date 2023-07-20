@@ -1,0 +1,32 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/create.css">
+    <script src="../js/script2.js"></script>
+    <title>Apply for position</title>
+</head>
+
+<body>
+
+
+    <div class="apply">
+
+        <div class="apply-content">
+            Name : <br>
+            <!-- Name field -->
+            <input type="text" placeholder="Name" id="name" required><br> Email : <br>
+            <!-- Email field -->
+            <input type="email" placeholder="Email" id="email" required><br> Position : <br>
+            <!-- Position field -->
+            <textarea id="description" placeholder="position" name="description" rows="8" cols="50" id="position" required></textarea><br><br>
+            <input type="checkbox" id="checkbox" class="input style" onclick="enableButton()">Accept Privacy Policy and Terms<br/><br/>
+            <center>
+                <a href="../php/aboutUs.php"><input type="submit" value="submit" id="submitBtn" disabled></a>
+            </center>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

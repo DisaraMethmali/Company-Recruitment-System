@@ -1,0 +1,166 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: none;
+    animation: pageLoadAnimation 1s forwards;
+}
+
+body {
+    background-color: rgba(101, 228, 250, 0.986);
+}
+
+header {
+    position: fixed;
+    left: 230px;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dashboard .box-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 3fr);
+    grid-column-gap: 25px;
+    /*justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 30px;*/
+}
+
+.dashboard .box {
+    flex: 0 0 calc(35% - 20px);
+    /* Adjust the width of the boxes as desired */
+    background-color: rgb(109, 109, 243);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+#admin-menu {
+    height: 100%;
+    width: 202px;
+    background-color: rgba(133, 131, 252, 0.39);
+}
+
+#admin-menu .logo {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+h2 {
+    color: rgb(57, 18, 216);
+}
+
+#admin-menu .logo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 300px;
+}
+
+#admin-menu .items {
+    margin-top: 25px;
+}
+
+#admin-menu .items li {
+    list-style: none;
+    padding: 15px 0;
+}
+
+#admin-menu li:hover {
+    background-color: aliceblue;
+    cursor: pointer;
+}
+
+#admin-menu .items li i {
+    color: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 10px 0 25px;
+}
+
+#admin-menu li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600px;
+}
+
+.slide-menu {
+    transition: transform 0.3s ease-out;
+}
+
+.slide-menu.menu-closed {
+    transform: translateX(-100%);
+}
+
+#tbl-wrapper {
+    overflow-x: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#tbl {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+#tbl th,
+#tbl td {
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#tbl tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#tbl th {
+    background-color: #050746;
+    color: white;
+}
+
+.view-button {
+    background-color: blue;
+    color: #f2f2f2;
+    width: 70px;
+    height: 30px;
+    border: #f2f2f2;
+}
+
+.edit-button {
+    background-color: rgb(24, 230, 24);
+    color: #f2f2f2;
+    width: 70px;
+    height: 30px;
+    border: #f2f2f2;
+}
+
+.delete-button {
+    background-color: red;
+    color: #f2f2f2;
+    width: 70px;
+    height: 30px;
+    border: #f2f2f2;
+}
+
+.add-button {
+    background-color: rgb(9, 97, 138);
+    color: #f2f2f2;
+    width: 100px;
+    height: 30px;
+    border: #f2f2f2;
+}

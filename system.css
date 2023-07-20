@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: hwb(239 44% 9%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    animation: pageLoadAnimation 1s forwards;
+    color: black;
+}
+
+.pull-left {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.link1 {
+    font-size: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+.link1:hover {
+    background-color: rgb(91, 69, 187);
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.view-button,
+.delete-button,
+.edit-button {
+    padding: 5px 10px;
+    background-color: #04101d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.view-button:hover,
+.delete-button:hover,
+.edit-button:hover {
+    background-color: #1c4c7c;
+}
+
+h2 {
+    color: #010307;
+    margin: 0;
+    font-size: 29px;
+    font-family: 'Times New Roman', Times, serif;
+}

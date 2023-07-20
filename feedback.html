@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="../js/script3.js"></script>
+    <title>Feedback Page</title>
+</head>
+
+<body>
+
+
+    </header>
+    <br>
+    <div class="containerfeed">
+        <form id="feedb" method="post">
+
+            <h2>Feedback</h2>
+            <form method="POST" action="submit_feedback.php">
+                <label>Your Name : </label>
+                <!-- Name field -->
+                <input type="text" id="name" class="feed" name="name" required>
+                <br><br>
+                <label>Your Email : </label>
+                <!-- Email field -->
+                <input type="email" id="email" class="feed" name="email" required>
+                <br><br>
+                <label>Feedback : </label>
+                <!-- feedback field -->
+                <textarea id="feedback" name="feedback" rows="8" cols="50" class="feed" required></textarea>
+                <br><br>
+                <input type="checkbox" id="checkbox" class="input style" onclick="enableButton()">Accept Privacy Policy and Terms<br/><br/>
+                <input type="submit" class="submitBtn" value="Submit">
+                <!-- Submit button -->
+            </form>
+
+</body>
+
+</html>

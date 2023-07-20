@@ -1,0 +1,79 @@
+.job-posts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .job-post {
+    width: 350px;
+    margin: 10px;
+    border: 1px solid #131313;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .post-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .post-actions a {
+    display: inline-block;
+    margin-right: 5px;
+    text-decoration: none;
+    
+    padding: 5px 10px;
+    color: #fff;
+  }
+  
+  
+  * {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #043569;
+}
+h1 {
+  color: rgb(255, 255, 255); 
+}
+
+.view-button {
+    background-color: blue;
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    border: #ffffff;
+}
+
+.edit-button {
+    background-color: rgb(24, 230, 24);
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    border: #ffffff;
+}
+
+.delete-button {
+    background-color: red;
+    color: #ffffff;
+    width: 70px;
+    height: 30px;
+    border: #ffffff;
+}
+
+h1{
+    text-align: center;
+}
+.create-button
+{
+  background-color:rgb(75, 28, 184);
+  color: #ffffff;
+  width: 70px;
+  height: 30px;
+  border: #ffffff;
+}
