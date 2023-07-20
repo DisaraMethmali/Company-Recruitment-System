@@ -1,4 +1,4 @@
-# 1st-Year-2nd-sem-group-project
+# Company Recruitment System
 
 This website created on html,css,javascript & php only.This website about company recruitment system.User can register to the website and search for the job vacncy and apply through the website.They will recieve interview date.Both registered applicants and non-registered applicant can view website.
 
