@@ -1,6 +1,6 @@
 # Company Recruitment System
 
-This website created on html,css,javascript & php only.This website about company recruitment system.User can register to the website and search for the job vacancy and apply through the website and pay a admission fee.Then they will recieve interview date.Both registered applicants and non-registered applicant can view website.
+This website created on html,css,javascript & php only.This website about company recruitment system.User can register to the website and search for the job vacancy and apply through the website and pay an admission fee.Then they will recieve interview date.Both registered applicants and non-registered applicant can view website.
 
 
 Home page
